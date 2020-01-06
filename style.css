@@ -28,7 +28,7 @@
 .box2 {
   width: 350px;
   height: 90px;
-  background-color: rgb(155, 212, 212);
+  background-color: rgb(209, 219, 219);
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   display: flex;
@@ -36,6 +36,8 @@
   align-items: center;
   justify-content: space-evenly;
   text-align: center;
+  box-shadow: 0px 12px 50px rgba(0, 0, 0, 0.7);
+  z-index: 2;
 }
 
 h3 {
@@ -53,7 +55,8 @@ small {
 .box3 {
   width: 275px;
   height: 65px;
-  background-color: rgb(52, 63, 63);
+  background-color: #1db954;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
+  box-shadow: 0px 40px 20px rgba(30, 215, 96, 0.2);
 }
