@@ -11,7 +11,12 @@
   flex-direction: column;
   height: 100vh;
   width: 100vw;
-  background-image: linear-gradient(to top, #21292f 0%, #191414 80%);
+  background-image: linear-gradient(
+    to top,
+    #21292f 0%,
+    #191414 80%,
+    #191f24 100%
+  );
   align-items: center;
   justify-content: center;
 }
